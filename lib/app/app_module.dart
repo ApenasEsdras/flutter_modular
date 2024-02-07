@@ -12,6 +12,6 @@ class AppModule extends Module {
       Modular.initialRoute,
       child: (context) => const SplashPage(),
     );
-    ModuleRoute('/categoria', module: CategoriaModule());
+    r.module('/categoria', module: CategoriaModule());
   }
 }
