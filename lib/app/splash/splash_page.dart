@@ -16,7 +16,6 @@ class SplashPage extends StatelessWidget {
           children: [
             TextButton(
               onPressed: () {
-                // Navigator.pushNamed(context, '/categoria');
                 Modular.to.pushNamed('/categoria');
               },
               child: const Text('Botao'),
